@@ -32,7 +32,7 @@ body {
 		justify-content: center;
 		align-items: center;
 		text-align: center;
-		height: 200px;
+		min-height: 200px;
 		color: #fff;
 		background-color: #00ba40;
 		text-transform: uppercase;
@@ -90,6 +90,21 @@ body {
 		height: 100vh;
 		.header {
 			padding: 0 2rem;
+			min-height: 150px;
+		}
+		.main {
+			label {
+				font-size: 1.8rem;
+			}
+			.count {
+				font-size: 2rem;
+			}
+			.cost-info {
+				font-size: 1.6rem;
+			}
+			.error {
+				font-size: 1.6rem;
+			}
 		}
 	}
 }

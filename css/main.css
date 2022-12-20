@@ -55,7 +55,7 @@ body {
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
-  height: 200px;
+  min-height: 200px;
   color: #fff;
   background-color: #00ba40;
   text-transform: uppercase;
@@ -114,5 +114,18 @@ body {
   }
   .wrapper .header {
     padding: 0 2rem;
+    min-height: 150px;
+  }
+  .wrapper .main label {
+    font-size: 1.8rem;
+  }
+  .wrapper .main .count {
+    font-size: 2rem;
+  }
+  .wrapper .main .cost-info {
+    font-size: 1.6rem;
+  }
+  .wrapper .main .error {
+    font-size: 1.6rem;
   }
 }/*# sourceMappingURL=main.css.map */
