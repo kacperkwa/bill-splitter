@@ -28,7 +28,7 @@ body {
 }
 
 .wrapper {
-  width: clamp(340px, 50vw, 600px);
+  width: clamp(380px, 50vw, 600px);
   background-color: #fff;
   -webkit-box-shadow: 0 0 10px #000;
           box-shadow: 0 0 10px #000;
@@ -103,6 +103,7 @@ body {
   font-weight: bold;
 }
 .wrapper .main .error {
+  opacity: 0;
   color: rgb(159, 63, 29);
   text-align: center;
 }

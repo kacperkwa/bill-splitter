@@ -20,7 +20,7 @@ body {
 }
 
 .wrapper {
-	width: clamp(340px, 50vw, 600px);
+	width: clamp(380px, 50vw, 600px);
 	background-color: #fff;
 	box-shadow: 0 0 10px #000;
 	display: flex;
@@ -78,6 +78,7 @@ body {
 			font-weight: bold;
 		}
 		.error {
+			opacity: 0;
 			color: rgb(159, 63, 29);
 			text-align: center;
 		}
