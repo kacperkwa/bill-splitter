@@ -12,14 +12,14 @@ const countBill = () => {
 	const tipValue = parseFloat(tip.value);
 	const count = (priceValue + priceValue * tipValue) / peopleValue;
 	cost.textContent = `${count.toFixed(2)}`;
-	costInfo.style.opacity = '1';
+	costInfo.style.display = 'block';
+	error.textContent = '';
 };
 const checkForm = () => {
 	if (price.value === '' || people.value === '' || tip.value === '0') {
-		error.style.opacity = '1';
-		costInfo.style.opacity = '0';
+		error.textContent = 'Complete all fields';
+		costInfo.style.display = 'none';
 	} else {
-		error.style.opacity = '0';
 		countBill();
 	}
 };

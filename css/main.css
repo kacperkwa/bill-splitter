@@ -95,7 +95,7 @@ body {
   background-color: rgb(0, 168, 59);
 }
 .wrapper .main .cost-info {
-  opacity: 0;
+  display: none;
   margin-top: 3rem;
   font-size: 2rem;
 }
@@ -103,7 +103,6 @@ body {
   font-weight: bold;
 }
 .wrapper .main .error {
-  opacity: 0;
   color: rgb(159, 63, 29);
   text-align: center;
 }
